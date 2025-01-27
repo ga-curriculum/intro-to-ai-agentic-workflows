@@ -1210,6 +1210,26 @@ LangGraph’s pre-built templates empower organizations to implement AI solution
 
 ---
 
+### **IV. LangGraph Framework**
+
+LangGraph is a specialized library for developing stateful, multi-actor applications using large language models (LLMs). It streamlines the creation of agent-based and multi-agent workflows, enabling seamless communication, coordination, and task execution across complex systems.
+
+#### **Core Features of LangGraph**
+- **Stateful Architecture**: Allows agents to retain context and memory across tasks for enhanced decision-making.  
+- **Multi-Actor Support**: Facilitates workflows involving multiple agents working collaboratively or independently.  
+- **Modular Design**: Simplifies development with reusable components that can be customized for specific applications.  
+- **Integration Capabilities**: Connects seamlessly with external APIs, databases, and platforms to enhance functionality.  
+- **Inspired by Proven Frameworks**: Incorporates concepts from Pregel and Apache Beam for efficient data flow and task processing, with an interface similar to NetworkX for ease of use.
+
+#### **LangGraph’s Independence**
+LangGraph is developed by LangChain Inc., the creators of LangChain. However, it is designed to function independently and does not require LangChain, making it versatile and adaptable for diverse use cases.
+
+#### **Applications**
+LangGraph is ideal for designing workflows in industries such as healthcare, finance, logistics, and education. For example, it can manage multi-agent collaboration in supply chains, automate customer support systems, or optimize resource allocation in real-time.
+
+
+---
+
 ### **V. Introduction to Designing AI Agent Workflows**
 
 Designing advanced AI agent workflows involves creating dynamic, scalable systems where multiple agents collaborate seamlessly to achieve complex goals. These workflows integrate autonomous decision-making, real-time adaptability, and continuous optimization to handle evolving tasks and environments.
