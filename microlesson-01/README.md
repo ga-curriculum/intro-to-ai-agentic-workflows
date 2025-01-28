@@ -793,6 +793,7 @@ The persistence layer in LangGraph provides robust mechanisms to maintain and in
 - **Parallel Execution**:  
    Use threads to manage independent or concurrent workflow states effectively.
 
+
 - **Use Cases of the Persistence Layer**
 - **Iterative Workflows**  
 - Enable continuous refinement and development by accessing previous states for validation and updates.
