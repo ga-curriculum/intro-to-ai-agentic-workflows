@@ -267,8 +267,6 @@ Agentic workflows are systems where autonomous AI agents manage, optimize, and a
 
 ### D. Benefits and Limitations of AI Agents
 
----
-
 ### **Benefits of AI Agents**
 
 - **Automation of Repetitive Tasks**:  
