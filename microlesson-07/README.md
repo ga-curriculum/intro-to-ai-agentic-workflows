@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Advanced Features and Capabilities of AI Agents</span>
-  <span class="subhead">Applications of AI Agents Built with LangGraph</span>
+  <span class="headline">Intro to AI Agentic Workflows</span>
+  <span class="subhead">Advanced Features and Capabilities of AI Agents</span>
 </h1>
 
 ### **VII. Advanced Features and Capabilities of AI Agents**
