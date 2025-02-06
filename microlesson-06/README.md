@@ -3,24 +3,16 @@
   <span class="subhead">Applications of AI Agents</span>
 </h1>
 
-### **VI. Applications of AI Agents**
+### **Applications of AI Agents**
 
 AI agents have revolutionized operations across industries by automating complex tasks, enabling intelligent decision-making, and improving user experiences. These agents are designed to handle specific workflows, collaborate dynamically, and adapt to evolving demands.
 
-In **healthcare**, agents streamline patient care, diagnostics, and administrative tasks. For example, a **Health Monitoring Agent** tracks vitals in real time, while a **Diagnostic Agent** analyzes symptoms for treatment recommendations. In **finance**, fraud detection agents analyze transaction patterns to flag anomalies, and portfolio optimization agents provide tailored investment strategies.
-
-**Logistics** leverages agents for inventory tracking, route optimization, and delivery scheduling, improving efficiency and reducing delays. In **education**, virtual tutor agents offer personalized learning experiences, while **customer support** agents handle FAQs, troubleshoot issues, and escalate complex queries.
-
-AI agents enhance scalability, accuracy, and cost-efficiency while freeing human resources for strategic roles. Their versatility ensures widespread applications in industries, driving innovation and operational excellence.
-
 ---
 
-#### A. AI Agents for Task Automation
+## A. AI Agents for Task Automation
 
-- **Definition**:  
-  - AI agents for task automation are designed to handle repetitive and rule-based tasks with minimal human intervention, improving efficiency and reducing manual workloads.
+  AI agents for task automation are designed to handle repetitive and rule-based tasks with minimal human intervention, improving efficiency and reducing manual workloads.
 
----
 
 ## 🤖 Core Features of Automation Agents  
 
@@ -67,12 +59,9 @@ AI agents enhance scalability, accuracy, and cost-efficiency while freeing human
 
 ---
 
-#### B. Conversational AI Agents
+## B. Conversational AI Agents
 
-- **Definition**:  
-  - Conversational AI agents are designed to interact with users through natural language, simulating human-like conversations to provide information, resolve queries, or complete tasks.
-
----
+Conversational AI agents are designed to interact with users through natural language, simulating human-like conversations to provide information, resolve queries, or complete tasks.
 
 ## 🗣️ Core Features of Conversational AI Agents  
 
@@ -95,7 +84,6 @@ AI agents enhance scalability, accuracy, and cost-efficiency while freeing human
 | **🏥 Healthcare** | Schedule appointments, provide symptom checks, and remind patients about medications. | A healthcare bot helps patients book doctor appointments by understanding symptoms and suggesting specialists. |
 | **💰 Banking & Finance** | Handle account inquiries, offer financial advice, and detect potential fraud. | A virtual assistant helps users track expenses and set budgets. |
 | **🎓 Education** | Act as virtual tutors, answering student questions and personalizing learning paths. | A conversational agent explains math concepts interactively during a student’s study session. |
-
 
 ---
 
@@ -123,12 +111,10 @@ AI agents enhance scalability, accuracy, and cost-efficiency while freeing human
 ---
 
 
-#### C. Knowledge Retrieval and Summarization Agents
+## C. Knowledge Retrieval and Summarization Agents
 
-- **Definition**:  
-  - Knowledge retrieval and summarization agents are AI-driven systems designed to access, extract, and condense information from vast datasets, making it easier for users to understand and act upon.
-
----
+**Definition**:  
+Knowledge retrieval and summarization agents are AI-driven systems designed to access, extract, and condense information from vast datasets, making it easier for users to understand and act upon.
 
 ## 📚 Core Features of Knowledge Retrieval and Summarization Agents  
 
@@ -177,7 +163,7 @@ AI agents enhance scalability, accuracy, and cost-efficiency while freeing human
 
 ---
 
-### **D. Collaborative Multi-Agent Systems**
+## **D. Collaborative Multi-Agent Systems**
 
 Collaborative multi-agent systems are advanced AI frameworks where multiple agents work together to achieve shared objectives. These systems enable inter-agent communication, coordination, and task-sharing, making them ideal for handling complex, multi-step workflows across industries.
 
@@ -185,19 +171,19 @@ Collaborative multi-agent systems are advanced AI frameworks where multiple agen
 
 ### **Core Components of Collaborative Multi-Agent Systems**
 
-- **1. Communication Protocols**:  
+**1. Communication Protocols**:  
   - Agents exchange data and share insights through defined communication protocols like REST APIs or message queues.  
   - Example: A recommendation agent informs an inventory agent about increased demand for a product, triggering stock replenishment.
 
-- **2. Role-Based Specialization**:  
+**2. Role-Based Specialization**:  
   - Agents are assigned specific roles within a workflow, ensuring efficiency and reducing redundancy.  
   - Example: In a logistics system, one agent optimizes routes while another monitors shipment statuses.
 
-- **3. Dynamic Coordination**:  
+**3. Dynamic Coordination**:  
   - Agents adapt their actions based on real-time inputs and evolving priorities.  
   - Example: In ShopSmart, a delivery agent reassigns routes dynamically when delays are detected.
 
-- **4. Task Interdependence**:  
+**4. Task Interdependence**:  
   - Tasks are structured so agents rely on each other for inputs, creating a seamless workflow.  
   - Example: A diagnostic agent in healthcare provides outputs for a treatment planning agent.
 
@@ -218,11 +204,13 @@ Collaborative multi-agent systems are advanced AI frameworks where multiple agen
 - **Finance**: Fraud detection, portfolio management, and compliance agents ensure secure and efficient operations.  
 - **Logistics**: Agents manage inventory, delivery routing, and real-time tracking collaboratively.
 
----
+## **🤖 AI Agent Comparison**
 
- **Case Example**: ShopSmart integrates multiple agents to provide a cohesive, multi-agent experience. For instance, while a customer interacts with a chatbot to inquire about order status, another agent may simultaneously update the inventory system, ensuring real-time updates.
+| **🛠️ Agent Type** | **🎯 Purpose** | **⚙️ Core Features** | **🏢 Common Applications** | **📌 Example Use Cases** |
+|-------------------|--------------|---------------------|-----------------------|------------------|
+| **⚡ Task Automation Agents** | Automate repetitive, rule-based tasks with minimal human intervention. | 🔹 Rule-based execution <br> 🔹 Decision-making <br> 🔹 Real-time processing <br> 🔹 Scalability | 💬 Customer support <br> 💰 Finance <br> 🏥 Healthcare <br> 🚚 Logistics <br> 🧑‍💼 HR | 📑 Automating payroll processing <br> 🧾 Invoice generation <br> 🚛 Delivery scheduling |
+| **🗣️ Conversational AI Agents** | Interact with users through natural language for assistance, queries, and transactions. | 🧠 NLP <br> 🔄 Context awareness <br> 🌍 Multi-language support <br> 📈 Adaptive learning <br> 📲 Multi-channel availability | 💬 Customer support <br> 🛒 E-commerce <br> 🏥 Healthcare <br> 💰 Banking <br> 🎓 Education | 💬 Chatbots for FAQs <br> 🎙️ Virtual assistants (Siri/Alexa) <br> 💳 AI-powered financial advisors |
+| **📚 Knowledge Retrieval & Summarization Agents** | Retrieve, process, and summarize information from large datasets to provide concise insights. | 🔍 Information retrieval <br> 📝 Summarization <br> 🧠 Contextual understanding <br> 🌍 Multi-language support <br> 🔄 Dynamic query handling | 🎓 Research <br> 🏥 Healthcare <br> ⚖️ Legal <br> 💰 Finance <br> 💬 Customer support | 📑 Summarizing research papers <br> ⚖️ Extracting key legal clauses <br> 📊 Generating executive financial summaries |
+| **🤝 Collaborative Multi-Agent Systems** | Multiple AI agents work together to complete complex, multi-step workflows. | 🔗 Communication protocols <br> 🎭 Role-based specialization <br> 🔄 Dynamic coordination <br> 🔄 Task interdependence | 🏥 Healthcare <br> 💰 Finance <br> 🚚 Logistics <br> 📊 Business intelligence | 🚛 AI-powered logistics coordination <br> 💳 Fraud detection in banking <br> 🛒 Multi-agent recommendation systems |
 
-- **API Integration**: ShopSmart connects external APIs for payment gateways and shipping tracking through LangGraph, allowing their agents to handle payment processing and real-time shipping updates without manual intervention.
-
-- **Memory & Context Management**: ShopSmart’s AI agents maintain session memory, so returning customers are greeted with personalized recommendations and are not asked for information they’ve already provided, improving the user experience.
 
