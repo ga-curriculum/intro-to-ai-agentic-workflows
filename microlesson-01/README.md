@@ -5,15 +5,21 @@
 
 ## Introduction to AI Agents 
 
-- **Definition**: AI agents are autonomous systems that perform tasks by perceiving their environment, reasoning, and taking actions to achieve specific goals.  
-- **Core Characteristics**: They can interact, learn, and adapt based on the tasks they are assigned.  
-- **Agentic Workflows**: A structured approach where agents automate and optimize workflows to enhance productivity and efficiency.  
-- **Key Capabilities**:
+**Definition**:\
+AI agents are autonomous systems that perform tasks by perceiving their environment, reasoning, and taking actions to achieve specific goals.  
+
+**Core Characteristics**:\
+They can interact, learn, and adapt based on the tasks they are assigned.  
+
+**Agentic Workflows**: \
+A structured approach where agents automate and optimize workflows to enhance productivity and efficiency.  
+
+**Key Capabilities**:
   - Decision-making based on real-time data.  
   - Learning from past interactions to improve future performance.  
   - Interacting with users and systems in natural and task-oriented ways.  
 
-- **Difference Between LLM and Agent**:
+**Difference Between LLM and Agent**:
   - **LLM (Large Language Model)**: A model trained to generate or process human-like text. It lacks autonomy and requires specific prompts or tasks.  
   - **Agent**: Builds upon LLMs by adding autonomy, decision-making, and the ability to perform actions based on goals and contexts.  
   - **Key Difference**: LLM provides responses, while an agent uses LLMs to act and complete tasks with a goal-oriented workflow.  
