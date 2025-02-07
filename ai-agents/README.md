@@ -3,57 +3,51 @@
   <span class="subhead">AI Agents</span>
 </h1>
 
-## Introduction to AI Agents 
+**Learning Objective**: By the end of this lesson you'll be able to:
+- Define AI Agents.
+- Describe Agentic Workflows.
+- Differentiate AI Agents from LLMs.
 
-**Definition**:\
-AI agents are autonomous systems that perform tasks by perceiving their environment, reasoning, and taking actions to achieve specific goals.  
+## The Need
+**AI Strategy** emerges at the intersection of three elements, listed below. When evaluating any AI opportunity, we must always seek the answers to questions pertaining to these three elements as a starting point. The three elements, and the corresponding questions, are:
 
-**Core Characteristics**:\
-They can interact, learn, and adapt based on the tasks they are assigned.  
+- 🟡 **User Needs (Desirability)**
+  - What is the underlying real need? (Efficiency, Reputation, Cost savings, etc.)
+  - What are the gains in **convenience** compared to the status quo?
+  - How well does it need to work?  
+- 🔴 **Business Goals (Viability)**
+  - How does this align with our long-term strategic goals?
+  - How long it would take, before we can see Return on Investments (RoI) like cost, time and effort? 
+  - What are the risks? 
+- 🔵 **Organizational Capabilities (Technical Feasibility)**
+  - Is this possible with existing AI models?
+  - Do we have the talent needed to execute and maintain this solution?
 
-**Agentic Workflows**: \
-A structured approach where agents automate and optimize workflows to enhance productivity and efficiency.  
+For most organisations, the solutions that emerge from these questions most of the times are AI Agents, and not LLMs. AI agents are foundational in shaping the future of technology, enabling smarter, faster, and more autonomous systems in various domains.
 
-**Key Capabilities**:
-  - Decision-making based on real-time data.  
-  - Learning from past interactions to improve future performance.  
-  - Interacting with users and systems in natural and task-oriented ways.  
+## An Introduction to AI Agents 
+An artificial intelligence (AI) agent refers to a system or program that is capable of autonomously performing tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
 
-**Difference Between LLM and Agent**:
-  - **LLM (Large Language Model)**: A model trained to generate or process human-like text. It lacks autonomy and requires specific prompts or tasks.  
-  - **Agent**: Builds upon LLMs by adding autonomy, decision-making, and the ability to perform actions based on goals and contexts.  
-  - **Key Difference**: LLM provides responses, while an agent uses LLMs to act and complete tasks with a goal-oriented workflow.  
-
----
-
-## A. **What Are AI Agents?**  
-- 🧠 **Definition**: AI agents are intelligent, autonomous systems that perceive their environment, reason, and take actions to achieve specific goals.  
-- ⚙️ **Core Elements**:  
-  - 👀 **Perception**: Gather and interpret data from inputs like text, images, audio, or sensors.  
-  - 🔍 **Reasoning**: Analyze and process data to make informed decisions.  
-  - 🎯 **Action**: Execute tasks such as answering queries, triggering workflows, or automating processes.  
+### Core Characteristics
+- 👀 **Perception**: Gather and interpret data from inputs like text, images, audio, or sensors.  
+- 🔍 **Reasoning**: Analyze and process data to make informed decisions.  
+- 🎯 **Action**: Execute tasks such as answering queries, triggering workflows, or automating processes.  
 - 🏆 **Autonomy**: Operate independently without requiring explicit human instructions at every step.  
-- 🔄 **Adaptability**: Learn from interactions and feedback to improve decision-making over time.  
+- 🔄 **Adaptability**: Learn from interactions and feedback to improve decision-making over time. 
 
----
+### Key Capabilities
+- Decision-making based on real-time data.  
+- Learning from past interactions to improve future performance.  
+- Interacting with users and systems in natural and task-oriented ways.  
 
-### 🔍 **Types of AI Agents**  
+### Types of AI Agents
 - ⚡ **Reactive Agents**: Respond to stimuli without memory or learning (e.g., simple chatbots).  
 - 📊 **Deliberative Agents**: These agents maintain an internal model of the world, enabling them to plan actions based on goals and knowledge (e.g., AI-powered recommendation systems, self-driving cars).
 
-AI agents are foundational in shaping the future of technology, enabling smarter, faster, and more autonomous systems in various domains.
-
----
-
-## B. The Concept of Agentic Workflows
-
+## The Concept of Agentic Workflows
 Agentic workflows are systems where autonomous AI agents manage, optimize, and automate tasks to achieve specific goals. These workflows combine perception, reasoning, and action to streamline operations, adapting dynamically to real-time data and environmental changes.
 
----
-
-#### **Detailed Workflow (With ShopSmart Examples)**  
-
-
+### Detailed Workflow (With ShopSmart Examples)
 | **Stage** | **Description** | **ShopSmart Example** |
 |-----------|----------------|----------------------|
 | **📝 Task Identification and Goal Setting** | Define overarching goals and break tasks into actionable components. Goals may be static (e.g., automate product recommendations) or dynamic (e.g., optimize inventory in real-time). | **Enhance customer satisfaction** by personalizing recommendations, maintaining stock levels, and offering 24/7 customer support. |
@@ -66,13 +60,8 @@ Agentic workflows are systems where autonomous AI agents manage, optimize, and a
 | **📈 Monitoring and Adaptation** | Agents continuously track workflow performance, detect inefficiencies, and adapt to dynamic inputs and goals. | **Inventory Management Agent** prioritizes restocking during flash sales. <br> **Recommendation Agent** shifts focus to upselling complementary products. <br> **Customer Support Agent** scales up for high inquiry volumes. |
 
 
----
-
-
-## C. Applications of AI Agents in Real-World Scenarios
-
-
-## 🌍 AI Agents in Different Industries  
+## AI Agents in Different Industries 
+AI agents can be employed to realize a wide range of functionalities beyond natural language processing including decision-making, problem-solving, interacting with external environments and executing actions.
 
 ### 🏥 **Healthcare**  
 - 🔬 Diagnose diseases using patient data and medical history.  
@@ -80,38 +69,26 @@ Agentic workflows are systems where autonomous AI agents manage, optimize, and a
 - 📅 Automate administrative tasks like appointment scheduling and billing.  
 - 🏥 **Example**: A **Diagnosis Agent** suggests treatments by analyzing lab reports, while a **Health Monitoring Agent** tracks patient oxygen levels and flags abnormalities.  
 
----
-
-### 💰 **Finance**  
+### 💰 Finance* 
 - 🛡️ Detect fraud in real-time by analyzing transaction patterns.  
 - 📈 Provide personalized investment advice and portfolio management.  
 - 💳 Automate customer service for banking queries, like balance checks or fund transfers.  
 - 🏦 **Example**: A **Fraud Detection Agent** flags suspicious transactions, while a **Portfolio Management Agent** tailors investment strategies to individual users.  
 
----
-
-### 🎓 **Education**  
+### 🎓 Education 
 - 📚 Design personalized learning plans based on student performance.  
 - 🎙️ Provide real-time tutoring assistance through AI-driven virtual assistants.  
 - ✍️ Automate grading and feedback for assignments.  
 - 🏫 **Example**: A **Personalized Learning Agent** recommends exercises for weak areas, and a **Virtual Tutor Agent** answers students' queries during self-paced study.  
 
----
-
-### 🏭 **Manufacturing**  
+### 🏭 Manufacturing 
 - ⚙️ Predict machinery maintenance needs to prevent downtime.  
 - 📊 Optimize production processes by dynamically adjusting to demand.  
 - 🚚 Enhance supply chain efficiency by automating inventory management.  
 - 🏗️ **Example**: A **Predictive Maintenance Agent** schedules repairs before failures occur, while a **Production Optimization Agent** ensures production meets demand efficiently.  
 
 
-
----
-
-## D. Benefits and Limitations of AI Agents
-
-## 👍 **Benefits of AI Agents**
-
+## Benefits of AI Agents
 | Benefit                        | Description                                                                 | Example |
 |--------------------------------|-----------------------------------------------------------------------------|---------|
 | **Automation of Repetitive Tasks** | AI agents streamline operations by automating mundane, repetitive tasks, freeing up human resources for more strategic roles. | Automating data entry, email responses, or inventory tracking. |
@@ -122,9 +99,8 @@ Agentic workflows are systems where autonomous AI agents manage, optimize, and a
 | **Cost Efficiency**             | Reduces operational costs by replacing manual processes with automated workflows. | Automating fraud detection in financial institutions. |
 | **Adaptability and Learning**   | Through machine learning, agents improve over time by learning from past interactions and feedback. | A virtual assistant enhancing its responses based on user feedback. |
 
----
 
-## 🚨 **Limitations of AI Agents**
+## Limitations of AI Agents
 
 | Limitation                      | Description                                                                 | Example |
 |---------------------------------|-----------------------------------------------------------------------------|---------|
@@ -136,28 +112,24 @@ Agentic workflows are systems where autonomous AI agents manage, optimize, and a
 | **Lack of Emotional Intelligence** | AI agents lack human empathy and emotional intelligence, which can be critical in scenarios requiring personal interactions. | Customer support agents failing to comfort distressed users effectively. |
 | **Over-Reliance on AI**           | Excessive reliance on AI agents may result in reduced human oversight and accountability for decisions. | Fully automated hiring systems rejecting qualified candidates due to algorithmic flaws. |
 
----
 
-## E. A Lens to Evaluate AI Opportunities
 
-**AI Strategy** emerges at the intersection of these three elements, ensuring AI opportunities align with user needs, business objectives, and technical feasibility.
+## Difference Between LLMs and AI Agents
 
-- 🟡 **User Needs (Desirability)**
-- 🔴 **Business Goals (Viability)**
-- 🔵 **Organizational Capabilities (Feasibility)**
+- **AI Agents** are **Decision-makers** that can act and adapt in an environment.  
+- **LLMs** are **Language models** that process and generate human-like text.  
+- LLMs **can be part of AI agents**, but **LLMs alone are not AI agents** since they lack decision-making abilities.
 
----
-
-💡 When evaluating any AI opportunity, always seek the answers to these questions as a starting point:
-
-### 🟡 **Desirability**  
-- How well does it need to work? 
-- What are the consequences if the model is wrong?  
-
-### 🔴 **Viability**  
-- How does this align with our strategic goals?
-- What are the risks?  
-
-### 🔵 **Feasibility**  
-- Is this possible with existing AI models?
-- Do we have the needed talent to execute and mainatin this solution?  
+| Feature            | **AI Agent** | **Large Language Model (LLM)** |
+|--------------------|----------------|--------------------------------|
+| **Definition** | A system that autonomously **perceives, decides, and acts** in an environment. | A machine learning model trained on vast amounts of text to **generate human-like language**. |
+| **Core Function** | Executes **goal-driven actions** based on input and feedback. | **Processes and generates text** based on probabilities learned from training data. |
+| **Capabilities** | Perception, reasoning, decision-making, learning, and actions (can be multimodal). | Predicts the next word/token in a sequence and can generate coherent responses. |
+| **Examples** | Virtual assistants (Siri, Alexa), Robotics, Autonomous Vehicles, AI-powered agents for customer service. | GPT-4, PaLM, LLaMA, Falcon, Claude. |
+| **Data Input** | Can process multiple types of data (text, images, video, sensor data, etc.). | Primarily trained on **text-based datasets** (some LLMs are multimodal). |
+| **Processing Mechanism** | Uses **decision trees, reinforcement learning, symbolic AI, and neural networks** to take actions. | Uses **deep learning (transformers)** to understand and generate text. |
+| **Interaction Mode** | Can **take real-world actions** (e.g., send an email, execute code, control hardware). | Only **generates responses** but doesn’t take actions by itself. |
+| **Learning Approach** | Uses **reinforcement learning (RL), supervised, or unsupervised learning** to adapt and improve. | Typically pre-trained using **self-supervised learning** and fine-tuned on specific tasks. |
+| **Decision Autonomy** | Can **plan and execute** tasks autonomously. | Requires **human prompts** to generate output but doesn’t take independent action. |
+| **Use Cases** | Chatbots, self-driving cars, trading bots, robotics, game AI, recommendation systems. | Conversational AI, text summarization, translation, content creation, code generation. |
+| **Can Use LLMs?** | ✅ Yes, AI agents can **integrate LLMs** as part of their reasoning and decision-making process. | ❌ No, LLMs by themselves **are not autonomous agents** but can power AI agents. |

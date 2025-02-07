@@ -3,15 +3,12 @@
   <span class="subhead">Foundations of Agentic Workflows</span>
 </h1>
 
-## A. Understanding Agentic Frameworks
+**Learning Objective**: By the end of this lesson you'll be able to describe agentic frameworks in terms of its functional components, stages and interactions.
 
+## An Introduction to Agentic Frameworks
 Agentic frameworks are structured systems that enable AI agents to operate autonomously and collaboratively within workflows. They provide the architecture for perception, reasoning, and task execution, ensuring agents achieve specific goals efficiently. These frameworks also integrate features like memory, feedback loops, and multi-agent collaboration for adaptability and continuous learning.
 
----
-
-## **Core Components of Agentic Frameworks**
-
-
+### Core Functions of Agentic Frameworks
 | **Function** | **Description** | **Example** |
 |-------------|---------------|------------|
 | **👀 Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
@@ -20,26 +17,15 @@ Agentic frameworks are structured systems that enable AI agents to operate auton
 | **🔄 Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
 | **💾 Memory** | Agents store and retrieve past interactions or data for improved context awareness. | A customer service agent remembers past complaints to provide better continuity in interactions. |
 
----
 
 ### **Characteristics of Agentic Frameworks**
+- 🤖 **Autonomy**: Agents operate independently without requiring constant human intervention.
+- 🎯 **Goal-Oriented Behavior**: Each agent is programmed to achieve specific objectives efficiently.
+- 💡**Adaptability**: Agents adjust their actions dynamically based on real-time data and evolving environments.
+- 🤝 **Collaboration**: Frameworks support communication between multiple agents to achieve shared goals.
 
-🤖 **Autonomy**:  
-  Agents operate independently without requiring constant human intervention.
-  
-🎯 **Goal-Oriented Behavior**:  
-Each agent is programmed to achieve specific objectives efficiently.
-
-💡**Adaptability**:  
-Agents adjust their actions dynamically based on real-time data and evolving environments.
-
-🤝 **Collaboration**:  
-Frameworks support communication between multiple agents to achieve shared goals.
-
----
 
 ### **Examples of Agentic Frameworks**
-
 | **Industry**     | **AI Agent Collaboration Example** |
 |-----------------|----------------------------------|
 | **Healthcare**  | Diagnostic agents collaborate with patient monitoring agents to provide comprehensive care in a hospital setting. |
@@ -47,15 +33,9 @@ Frameworks support communication between multiple agents to achieve shared goals
 | **Transportation** | Route optimization agents and fleet management agents collaborate to ensure timely and efficient deliveries. |
 
 
----
+## Stages inside Agentic Workflows
+Agentic workflows consist of interconnected stages that enable AI agents to function autonomously, collaboratively, and effectively. Each stage plays a critical role in ensuring agents can perceive, process, and act within their environment to achieve specific goals.
 
-## B. Components of Agentic Workflows
-
-Agentic workflows consist of interconnected components that enable AI agents to function autonomously, collaboratively, and effectively. Each component plays a critical role in ensuring agents can perceive, process, and act within their environment to achieve specific goals.
-
----
-
-## 🔄 Intelligent Agent Workflow Stages  
 
 | **Stage** | **Description** | **Example (Smart Manufacturing System)** |
 |-----------|---------------|--------------------------------------------|
@@ -68,22 +48,17 @@ Agentic workflows consist of interconnected components that enable AI agents to 
 | **🔄 Feedback Loop** | Continuously refine models and improve performance using outcome-based feedback. | 🔄 *The AI system analyzes repair effectiveness and updates predictive models to improve future maintenance scheduling.* |
 | **📈 Monitoring & Adaptation** | Track workflow performance in real-time and adapt to new data or conditions. | 📡 *The AI system dynamically adjusts production schedules based on real-time machine performance and demand forecasts.* |
 
----
 
-### **Benefits of These Components**
 
-**Efficiency**: Each component works together to streamline operations and reduce redundancy.  **Scalability**: Enables workflows to handle increasing complexity or demand without significant redesign.  
-**Resilience**: Agents can adapt to unforeseen changes, ensuring workflow continuity.
+### **Benefits of These Stages**
+- **Efficiency**: Each component works together to streamline operations and reduce redundancy.  
+- **Scalability**: Enables workflows to handle increasing complexity or demand without significant redesign.  
+- **Resilience**: Agents can adapt to unforeseen changes, ensuring workflow continuity.
 
----
 
-### C. How AI Agents Interact with Systems and Users
-
+## **Modes of Interaction:** How AI Agents Interact with Systems and Users
 AI agents act as **intermediaries between users and systems**, processing inputs, making decisions, and delivering outputs to achieve specific goals. Their interaction mechanisms are designed to ensure seamless communication, efficiency, and adaptability.
 
----
-
-## 🤖 AI Agent Modes of Interaction
 
 | **Interaction Type**       | **Description** | **Key Features** | **Example** |
 |---------------------------|----------------|------------------|-------------|
@@ -91,10 +66,8 @@ AI agents act as **intermediaries between users and systems**, processing inputs
 | **🔗 Interaction with Systems** | Agents interface with databases, APIs, IoT devices, and enterprise systems to collect data, process tasks, and execute actions. | ✔️ Connects with multiple data sources.  <br> ✔️ Uses REST or GraphQL APIs for data retrieval.  <br> ✔️ Responds to live data streams. | - 🚚 *A logistics agent monitors deliveries through a fleet management system.*  <br> - 🌦️ *A weather forecasting agent updates predictions using IoT sensor data.* |
 | **🤝 Multi-Agent Collaboration** | Multiple agents work together to handle complex, interdependent tasks efficiently. | ✔️ Exchanges data for coordinated actions.  <br> ✔️  Assigns tasks to specialized agents. | ✔️ 🏭 *In a smart factory, a production scheduling agent collaborates with a maintenance agent to prevent downtime.* |
 
----
 
-### **Challenges in Interaction**
-
+### **Challenges in Interactions**
 **1. Context Understanding**:  
 - Ensuring agents accurately interpret ambiguous or incomplete inputs.  
 - Example: A chatbot may misinterpret a vague query like "It’s not working" without additional context.
@@ -113,10 +86,8 @@ AI agents act as **intermediaries between users and systems**, processing inputs
 - **Operational Efficiency**: Automates data collection and decision-making across systems.  
 - **Scalability**: Handles large volumes of user queries or system requests effortlessly.  
 
----
 
-## ShopSmart Example
-
+## 🗣️ **Discussion Activity**: ShopSmart
  ShopSmart's agentic workflow is designed to facilitate customer support and order tracking. The agents are connected to the company's inventory management system and CRM. When a customer asks about product availability, the agent accesses real-time data to provide an accurate response.
 
  🤔 **Think About It** What, if any, should the proccess be to handle situations where a customer support agent isn't able to handle a customers needs?
