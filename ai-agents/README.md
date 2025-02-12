@@ -28,6 +28,11 @@ For most organisations, the solutions that emerge from these questions most of t
 ## An Introduction to AI Agents 
 An AI agent is a system that leverages large language models (LLMs) and other AI models to interact with its environment in order to achieve user-defined objectives. Unlike traditional AI systems or standalone LLMs, modern AI agents combine reasoning, planning, and execution of actions (often via external tools) to fulfill complex tasks autonomously.
 
+An Agent is a system that uses an AI Model (typically a LLM) as its core reasoning engine, to:
+- **Understand natural language**: Interpret and respond to human instructions in a meaningful way.
+- **Reason and plan**: Analyze information, make decisions, and find strategies to solve problems.
+- **Interact with its environment**: Gather information, take actions, and observe the results of those actions.
+
 ### Core Characteristics
 - 🎯 **Goal-Oriented** -- Pursues user-defined objectives through planning and execution
 - 🛠️ **Advanced Tool Use** -- Leverages web browsing, computer operations, APIs, and databases
@@ -72,10 +77,10 @@ An AI agent is a system that leverages large language models (LLMs) and other AI
 
 ## The Concept of Agentic Workflows
 Agentic workflows are structured processes where AI agents coordinate to achieve complex goals through a combination of:
-- Planning and breaking down tasks
-- Executing actions via tools and APIs  
-- Monitoring progress and adapting strategies
-- Maintaining context across multiple steps
+- Planning and breaking down tasks.
+- Executing actions via tools and APIs.  
+- Monitoring progress and adapting strategies.
+- Maintaining context across multiple steps.
 
 ### Detailed Workflow Components
 | **Component** | **Description** | **Example** |
@@ -103,13 +108,13 @@ Agentic workflows are structured processes where AI agents coordinate to achieve
 ## AI Agents in Different Industries 
 AI agents can be employed to realize a wide range of functionalities beyond natural language processing including decision-making, problem-solving, interacting with external environments and executing actions.
 
-### 🏥 **Healthcare**  
+### 🏥 Healthcare  
 - 🔬 Diagnose diseases using patient data and medical history.  
 - 📡 Monitor patient vitals in real-time using IoT devices and alert doctors of anomalies.  
 - 📅 Automate administrative tasks like appointment scheduling and billing.  
 - 🏥 **Example**: A **Diagnosis Agent** suggests treatments by analyzing lab reports, while a **Health Monitoring Agent** tracks patient oxygen levels and flags abnormalities.  
 
-### 💰 Finance* 
+### 💰 Finance 
 - 🛡️ Detect fraud in real-time by analyzing transaction patterns.  
 - 📈 Provide personalized investment advice and portfolio management.  
 - 💳 Automate customer service for banking queries, like balance checks or fund transfers.  
