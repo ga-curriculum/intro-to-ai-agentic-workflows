@@ -5,6 +5,65 @@
 
 **Learning Objective**: By the end of this lesson you'll be able to build AI Agents using the most popular open-source framework called LangGraph.
 
+## Understanding Large Language Models (LLMs)
+Before diving into AI agent frameworks, it's important to understand Large Language Models (LLMs) as they form the core intelligence of modern AI agents.
+
+### What is a Large Language Model?
+An LLM is a type of AI model that excels at **understanding and generating human language**. These models:
+- Are trained on vast amounts of text data
+- Learn patterns, structure, and nuance in language
+- Typically consist of many millions of parameters
+- Are usually built on the Transformer architecture
+
+### Types of Transformers
+There are 3 main types of transformer models:
+
+1. **Encoders**
+   - Take text as input and output dense representations
+   - Example: BERT from Google
+   - Use cases: Text classification, semantic search
+   - Size: Millions of parameters
+
+2. **Decoders**
+   - Focus on generating new tokens sequentially
+   - Example: Llama from Meta
+   - Use cases: Text generation, chatbots, code generation
+   - Size: Billions of parameters
+
+3. **Seq2Seq (Encoder-Decoder)**
+   - Combine encoder and decoder functionality
+   - Example: T5, BART
+   - Use cases: Translation, summarization
+   - Size: Millions of parameters
+
+### Popular LLMs
+| **Model** | **Provider** |
+|-----------|--------------|
+| Deepseek-R1 | DeepSeek |
+| GPT4 | OpenAI |
+| Llama 3 | Meta |
+| SmolLM2 | Hugging Face |
+| Gemma | Google |
+| Mistral | Mistral |
+
+### How LLMs Work
+LLMs operate through:
+- **Token Prediction**: Predicting the next token based on previous tokens
+- **Autoregression**: Output from one pass becomes input for the next
+- **Attention Mechanism**: Identifying relevant context for predictions
+- **Special Tokens**: Using markers to structure generation (e.g., EOS tokens)
+
+### Using LLMs in AI Agents
+LLMs serve as the "brain" of AI agents by:
+- Interpreting user instructions
+- Maintaining conversation context
+- Defining action plans
+- Deciding which tools to use
+
+You can use LLMs through:
+1. Local deployment (with sufficient hardware)
+2. Cloud/API services (e.g., Hugging Face Inference API)
+
 ## The need for Agentic AI Orchestration
 AI agents require structured workflows to function effectively. Without a framework to manage workflows, state, and decision-making, agents struggle with:
 
@@ -178,7 +237,7 @@ print(traces[-1])  # Show the latest trace
 ## Standard Design Process for Building an AI Agent using LangGraph (LangChain Framework)  
 The process of designing an AI agent follows a structured pipeline that aligns with best practices in **AI agent development**. Now that we've already seen a demo of building an AI Agent, lets use the demo to understand the  standardized sequence of steps that can be applied when building **any AI agent**:
 
-### Stage 1: Define the Agent’s Goal & Use Case
+### Stage 1: Define the Agent's Goal & Use Case
 - Clearly identify **what the AI agent should accomplish**.
 - Example: *A research assistant that retrieves and summarizes web content*.
 
@@ -193,11 +252,11 @@ The process of designing an AI agent follows a structured pipeline that aligns w
 - **Memory & Storage**: Determine whether the agent needs memory (short-term or long-term).  
 
 #### Example Components from Demo:  
-- **LLM**: OpenAI’s GPT-3.5 Turbo  
+- **LLM**: OpenAI's GPT-3.5 Turbo  
 - **Tool**: DuckDuckGo for web search  
 - **Memory**: No long-term memory (stateless agent)
 
-### Stage 3: Implement the Agent’s Core Logic
+### Stage 3: Implement the Agent's Core Logic
 - Break the **workflow into steps**.
 - Implement functions for each step.  
 - Use **LangChain** for LLM integration & tool execution.  
@@ -221,7 +280,7 @@ The process of designing an AI agent follows a structured pipeline that aligns w
 - Optimize the agent's performance based on logs.  
 
 #### Example Debugging Tools from Demo:  
-- **LangSmith’s traceable decorator** for tracking function calls.  
+- **LangSmith's traceable decorator** for tracking function calls.  
 - **Fetching traces via LangSmith Client** for monitoring execution history.  
 
 ### Stage 6: Run, Test & Optimize the Agent
@@ -245,7 +304,7 @@ The process of designing an AI agent follows a structured pipeline that aligns w
 - **Automated research tools** for knowledge workers.  
 - **Internal workflow automation** for enterprises.  
 
-This **structured process** can be applied to **any AI agent**, whether it’s a **customer support bot, AI research assistant, or automation agent**.
+This **structured process** can be applied to **any AI agent**, whether it's a **customer support bot, AI research assistant, or automation agent**.
 
 ##  Real-World Applications of LangGraph
 
