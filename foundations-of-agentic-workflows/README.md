@@ -34,9 +34,10 @@ Agentic frameworks are structured systems that enable AI agents to operate auton
 
 | Industry        | AI Agent Collaboration Example |
 |---------------|----------------------------------|
-| 🏥 **Healthcare**  | Diagnostic agents collaborate with patient monitoring agents to provide comprehensive care in a hospital setting. |
-| 💰 **Finance**     | Fraud detection agents work alongside portfolio management agents to ensure secure and profitable financial operations. |
-| 🚚 **Transportation** | Route optimization agents and fleet management agents collaborate to ensure timely and efficient deliveries. |
+| 🏥&nbsp;**Healthcare**  | Diagnostic agents collaborate with patient monitoring agents to provide comprehensive care in a hospital setting. |
+| 💰&nbsp;**Finance**     | Fraud detection agents work alongside portfolio management agents to ensure secure and profitable financial operations. |
+| 🚚&nbsp;**Transportation** | Route optimization agents and fleet management agents collaborate to ensure timely and efficient deliveries. |
+
 
 
 
