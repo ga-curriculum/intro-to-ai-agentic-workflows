@@ -37,14 +37,15 @@ There are 3 main types of transformer models:
    - Size: Millions of parameters
 
 ### Popular LLMs
-| **Model** | **Provider** |
-|-----------|--------------|
-| Deepseek-R1 | DeepSeek |
-| GPT4 | OpenAI |
-| Llama 3 | Meta |
-| SmolLM2 | Hugging Face |
-| Gemma | Google |
-| Mistral | Mistral |
+
+| Model          | Provider      |
+|--------------|--------------|
+| 🧠&nbsp;Deepseek-R1 | DeepSeek |
+| 🤖&nbsp;GPT-4        | OpenAI |
+| 🦙&nbsp;Llama 3      | Meta |
+| 🏆&nbsp;SmolLM2      | Hugging Face |
+| 🌟&nbsp;Gemma       | Google |
+| ⚡&nbsp;Mistral      | Mistral |
 
 ### How LLMs Work
 LLMs operate through:
@@ -226,12 +227,13 @@ traces = client.list_traces()
 print(traces[-1])  # Show the latest trace
 ```
 
-###  How LangChain, LangGraph, and LangSmith Work Together
-| **Component** | **Role in This AI Research Agent** |
-|--------------|------------------------------------|
-| **LangChain** | Handles LLM integration for search and summarization. |
-| **LangGraph** | Orchestrates multi-step workflows (search → summarize → refine). |
-| **LangSmith** | Monitors, debugs, and optimizes execution. |
+### How LangChain, LangGraph, and LangSmith Work Together
+
+| Component        | Role in This AI Research Agent |
+|-----------------|--------------------------------|
+| 🔗&nbsp;**LangChain**  | Handles LLM integration for search and summarization. |
+| 📊&nbsp;**LangGraph**  | Orchestrates multi-step workflows (search → summarize → refine). |
+| 🛠️&nbsp;**LangSmith**  | Monitors, debugs, and optimizes execution. |
 
 
 ## Standard Design Process for Building an AI Agent using LangGraph (LangChain Framework)  
