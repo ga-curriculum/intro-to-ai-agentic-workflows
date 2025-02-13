@@ -70,14 +70,14 @@ An Agent is a system that uses an AI Model (typically a LLM) as its core reasoni
 | Application Control | Interact with software tools | Agent using design tools or code editors         |
 
 
-
 ### Advanced Reasoning Approaches
-| **Method** | **Description** | **Example Use Case** |
-|------------|----------------|-------------------|
-| **🤔 Chain-of-Thought** | Break down complex problems into logical steps | "To analyze this dataset, I'll first check its structure, then clean missing values..." |
-| **🔄 Recursive Reasoning** | Refine solutions through multiple passes | Agent improving code by repeatedly analyzing and refining it |
-| **🎯 Tool Selection Logic** | Choose optimal tools for each task | "For this visualization, I'll use matplotlib because..." |
-| **📋 Task Decomposition** | Split complex goals into manageable steps | Breaking down a research project into search, analysis, and synthesis phases |
+
+| Method                   | Description                                  | Example Use Case                                      |
+|--------------------------|----------------------------------------------|-------------------------------------------------------|
+| 🤔 **Chain-of-Thought**  | Break down complex problems into logical steps | "To analyze this dataset, I'll first check its structure, then clean missing values..." |
+| 🔄 **Recursive Reasoning** | Refine solutions through multiple passes    | Agent improving code by repeatedly analyzing and refining it |
+| 🎯 **Tool Selection Logic** | Choose optimal tools for each task          | "For this visualization, I'll use matplotlib because..." |
+| 📋 **Task Decomposition**  | Split complex goals into manageable steps   | Breaking down a research project into search, analysis, and synthesis phases |
 
 ## The Concept of Agentic Workflows
 Agentic workflows are structured processes where AI agents coordinate to achieve complex goals through a combination of:
