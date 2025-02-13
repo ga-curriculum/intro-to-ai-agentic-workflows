@@ -13,7 +13,7 @@ Agentic frameworks are structured systems that enable AI agents to operate auton
 
 | Function         | Description                                                              | Example |
 |-----------------|--------------------------------------------------------------------------|---------|
-| | 👀 Perception | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
+| 👀 **Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
 | 🧠 **Reasoning**  | Agents process collected data, apply logic, and make informed decisions. | A diagnostic agent analyzes symptoms and cross-references them with a medical database to suggest potential conditions. |
 | ⚡ **Action**     | Agents execute tasks or responses based on decisions made during the reasoning phase. | A logistics agent places an order for restocking inventory when stock levels are low. |
 | 🔄 **Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
