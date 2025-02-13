@@ -9,15 +9,16 @@
 Agentic frameworks are structured systems that enable AI agents to operate autonomously and collaboratively within workflows. They provide the architecture for perception, reasoning, and task execution, ensuring agents achieve specific goals efficiently. These frameworks also integrate features like memory, feedback loops, and multi-agent collaboration for adaptability and continuous learning.
 
 ---
+
 ### Core Functions of Agentic Frameworks
 
 | Function         | Description                                                              | Example |
 |-----------------|--------------------------------------------------------------------------|---------|
-| 👀 **Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
-| 🧠 **Reasoning**  | Agents process collected data, apply logic, and make informed decisions. | A diagnostic agent analyzes symptoms and cross-references them with a medical database to suggest potential conditions. |
-| ⚡ **Action**     | Agents execute tasks or responses based on decisions made during the reasoning phase. | A logistics agent places an order for restocking inventory when stock levels are low. |
-| 🔄 **Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
-| 💾 **Memory**     | Agents store and retrieve past interactions or data for improved context awareness. | A customer service agent remembers past complaints to provide better continuity in interactions. |
+| 👀&nbsp;**Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
+| 🧠&nbsp;**Reasoning**  | Agents process collected data, apply logic, and make informed decisions. | A diagnostic agent analyzes symptoms and cross-references them with a medical database to suggest potential conditions. |
+| ⚡&nbsp;**Action**     | Agents execute tasks or responses based on decisions made during the reasoning phase. | A logistics agent places an order for restocking inventory when stock levels are low. |
+| 🔄&nbsp;**Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
+| 💾&nbsp;**Memory**     | Agents store and retrieve past interactions or data for improved context awareness. | A customer service agent remembers past complaints to provide better continuity in interactions. |
 
 
 
