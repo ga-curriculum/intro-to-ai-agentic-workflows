@@ -62,10 +62,10 @@ An Agent is a system that uses an AI Model (typically a LLM) as its core reasoni
 **2. Tool Use Capabilities**
 | Tool Type        | Description                     | Example                                           |
 |-----------------|---------------------------------|---------------------------------------------------|
-| 🌐 Web Access   | Browse and analyze web content | Research agent finding latest papers on a topic  |
-| 💻 Computer Use | Operate system applications    | Agent using spreadsheet software to analyze data |
-| 🔗 API Integration | Connect with external services | Agent accessing databases or cloud services      |
-| 📱 Application Control | Interact with software tools | Agent using design tools or code editors         |
+|  Web Access   | Browse and analyze web content | Research agent finding latest papers on a topic  |
+|  Computer Use | Operate system applications    | Agent using spreadsheet software to analyze data |
+|  API Integration | Connect with external services | Agent accessing databases or cloud services      |
+|  Application Control | Interact with software tools | Agent using design tools or code editors         |
 
 
 
