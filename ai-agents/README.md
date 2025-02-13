@@ -61,10 +61,6 @@ An Agent is a system that uses an AI Model (typically a LLM) as its core reasoni
 
 **2. Tool Use Capabilities**
 ---
-title: "Markdown Table Debugging"
----
-
-# Tool Table
 
 | Tool Type        | Description                     | Example                                           |
 |-----------------|---------------------------------|---------------------------------------------------|
