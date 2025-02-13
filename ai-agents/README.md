@@ -86,27 +86,33 @@ Agentic workflows are structured processes where AI agents coordinate to achieve
 - Monitoring progress and adapting strategies.
 - Maintaining context across multiple steps.
 
+---
 ### Detailed Workflow Components
-| **Component** | **Description** | **Example** |
-|--------------|-----------------|-------------|
-| **🎯 Goal Definition** | Clear objectives set by users | "Research and summarize recent AI papers" |
-| **📋 Task Planning** | Breaking goals into actionable steps | Search databases → Read papers → Generate summary |
-| **🛠️ Tool Selection** | Choosing appropriate tools/APIs | Academic search API, PDF parser, LLM summarizer |
-| **⚡ Execution** | Carrying out planned actions | Running searches, processing papers, writing summary |
-| **📊 Monitoring** | Tracking progress and results | Checking summary quality, coverage of key points |
-| **🔄 Adaptation** | Adjusting based on feedback | Refining search terms, improving summaries |
+
+| Component           | Description                      | Example                                           |
+|---------------------|----------------------------------|---------------------------------------------------|
+| 🎯 **Goal Definition**  | Clear objectives set by users   | "Research and summarize recent AI papers"        |
+| 📋 **Task Planning**    | Breaking goals into actionable steps | Search databases → Read papers → Generate summary |
+| 🛠️ **Tool Selection**   | Choosing appropriate tools/APIs  | Academic search API, PDF parser, LLM summarizer   |
+| ⚡ **Execution**        | Carrying out planned actions    | Running searches, processing papers, writing summary |
+| 📊 **Monitoring**       | Tracking progress and results   | Checking summary quality, coverage of key points |
+| 🔄 **Adaptation**       | Adjusting based on feedback    | Refining search terms, improving summaries       |
+
+---
 
 ### Detailed Workflow (With ShopSmart Examples)
-| **Stage** | **Description** | **ShopSmart Example** |
-|-----------|----------------|----------------------|
-| **📝 Task Identification and Goal Setting** | Define overarching goals and break tasks into actionable components. Goals may be static (e.g., automate product recommendations) or dynamic (e.g., optimize inventory in real-time). | **Enhance customer satisfaction** by personalizing recommendations, maintaining stock levels, and offering 24/7 customer support. |
-| **🤖 Agent Selection and Configuration** | Choose agents based on task requirements and configure them with data sources, rules, and operational boundaries. | **Recommendation Agent** suggests products using collaborative filtering. <br> **Inventory Management Agent** tracks stock levels and predicts demand. <br> **Customer Support Agent** handles queries using NLP. |
-| **📊 Data Perception and Collection** | Agents gather data from user interactions, logs, supplier databases, and IoT devices to extract insights. | **Recommendation Agent** collects browsing history and purchase data. <br> **Inventory Management Agent** monitors stock levels and supplier availability. <br> **Customer Support Agent** analyzes chat interactions. |
-| **🧠 Analysis, Reasoning, and Decision-Making** | Agents process collected data using rule-based systems, ML models, or reinforcement learning to determine optimal actions. | **Recommendation Agent** applies collaborative filtering to suggest personalized products. <br> **Inventory Management Agent** forecasts demand spikes using sales trends. <br> **Customer Support Agent** prioritizes frequent queries (e.g., "Where is my order?"). |
-| **⚡ Task Execution** | Agents autonomously perform assigned tasks such as providing recommendations, triggering restocking, or responding to queries. | **Recommendation Agent** updates the homepage with personalized product suggestions. <br> **Inventory Management Agent** places automatic restocking orders. <br> **Customer Support Agent** replies instantly with order status updates. |
-| **🔗 Collaboration Between Agents** | Agents communicate and coordinate actions to ensure workflow alignment and avoid inefficiencies. | **Recommendation Agent** consults **Inventory Management Agent** to avoid suggesting out-of-stock products. <br> **Customer Support Agent** queries the inventory system for stock updates. |
-| **🔄 Feedback Loop and Continuous Learning** | Agents analyze outcomes, refine their processes, and improve decision-making through ML-based feedback mechanisms. | **Recommendation Agent** learns from user clicks and purchases. <br> **Inventory Management Agent** adjusts forecasts based on actual vs. predicted sales. <br> **Customer Support Agent** improves responses based on satisfaction scores. |
-| **📈 Monitoring and Adaptation** | Agents continuously track workflow performance, detect inefficiencies, and adapt to dynamic inputs and goals. | **Inventory Management Agent** prioritizes restocking during flash sales. <br> **Recommendation Agent** shifts focus to upselling complementary products. <br> **Customer Support Agent** scales up for high inquiry volumes. |
+
+| Stage                                   | Description                                                                                      | ShopSmart Example                                                                 |
+|-----------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| 📝 **Task Identification and Goal Setting** | Define overarching goals and break tasks into actionable components. Goals may be static (e.g., automate product recommendations) or dynamic (e.g., optimize inventory in real-time). | **Enhance customer satisfaction** by personalizing recommendations, maintaining stock levels, and offering 24/7 customer support. |
+| 🤖 **Agent Selection and Configuration** | Choose agents based on task requirements and configure them with data sources, rules, and operational boundaries. | **Recommendation Agent** suggests products using collaborative filtering. <br> **Inventory Management Agent** tracks stock levels and predicts demand. <br> **Customer Support Agent** handles queries using NLP. |
+| 📊 **Data Perception and Collection** | Agents gather data from user interactions, logs, supplier databases, and IoT devices to extract insights. | **Recommendation Agent** collects browsing history and purchase data. <br> **Inventory Management Agent** monitors stock levels and supplier availability. <br> **Customer Support Agent** analyzes chat interactions. |
+| 🧠 **Analysis, Reasoning, and Decision-Making** | Agents process collected data using rule-based systems, ML models, or reinforcement learning to determine optimal actions. | **Recommendation Agent** applies collaborative filtering to suggest personalized products. <br> **Inventory Management Agent** forecasts demand spikes using sales trends. <br> **Customer Support Agent** prioritizes frequent queries (e.g., "Where is my order?"). |
+| ⚡ **Task Execution** | Agents autonomously perform assigned tasks such as providing recommendations, triggering restocking, or responding to queries. | **Recommendation Agent** updates the homepage with personalized product suggestions. <br> **Inventory Management Agent** places automatic restocking orders. <br> **Customer Support Agent** replies instantly with order status updates. |
+| 🔗 **Collaboration Between Agents** | Agents communicate and coordinate actions to ensure workflow alignment and avoid inefficiencies. | **Recommendation Agent** consults **Inventory Management Agent** to avoid suggesting out-of-stock products. <br> **Customer Support Agent** queries the inventory system for stock updates. |
+| 🔄 **Feedback Loop and Continuous Learning** | Agents analyze outcomes, refine their processes, and improve decision-making through ML-based feedback mechanisms. | **Recommendation Agent** learns from user clicks and purchases. <br> **Inventory Management Agent** adjusts forecasts based on actual vs. predicted sales. <br> **Customer Support Agent** improves responses based on satisfaction scores. |
+| 📈 **Monitoring and Adaptation** | Agents continuously track workflow performance, detect inefficiencies, and adapt to dynamic inputs and goals. | **Inventory Management Agent** prioritizes restocking during flash sales. <br> **Recommendation Agent** shifts focus to upselling complementary products. <br> **Customer Support Agent** scales up for high inquiry volumes. |
+
 
 
 ## AI Agents in Different Industries 
