@@ -60,13 +60,15 @@ Conversational AI agents are designed to interact with users through natural lan
 
 
 ### Applications of Conversational AI Agents  
+
 | Industry          | How Conversational AI Helps                                       | Example |
 |------------------|------------------------------------------------------------------|---------|
-| 💬&nbsp;**Customer Support** | Answer FAQs, troubleshoot common issues, and escalate complex queries to human agents. | A chatbot helps users reset passwords or check account balances. |
-| 🛒&nbsp;**E-Commerce** | Provide personalized product recommendations and assist with purchases. | An AI agent suggests complementary products based on a user’s cart. |
-| 🏥&nbsp;**Healthcare** | Schedule appointments, provide symptom checks, and remind patients about medications. | A healthcare bot helps patients book doctor appointments by understanding symptoms and suggesting specialists. |
-| 💰&nbsp;**Banking & Finance** | Handle account inquiries, offer financial advice, and detect potential fraud. | A virtual assistant helps users track expenses and set budgets. |
-| 🎓&nbsp;**Education** | Act as virtual tutors, answering student questions and personalizing learning paths. | A conversational agent explains math concepts interactively during a student’s study session. |
+| **💬 Customer Support** | Answer FAQs, troubleshoot common issues, and escalate complex queries to human agents. | A chatbot helps users reset passwords or check account balances. |
+| **🛒 E-Commerce** | Provide personalized product recommendations and assist with purchases. | An AI agent suggests complementary products based on a user’s cart. |
+| **🏥 Healthcare** | Schedule appointments, provide symptom checks, and remind patients about medications. | A healthcare bot helps patients book doctor appointments by understanding symptoms and suggesting specialists. |
+| **💰 Banking & Finance** | Handle account inquiries, offer financial advice, and detect potential fraud. | A virtual assistant helps users track expenses and set budgets. |
+| **🎓 Education** | Act as virtual tutors, answering student questions and personalizing learning paths. | A conversational agent explains math concepts interactively during a student’s study session. |
+
 
 
 ### Benefits of Conversational AI Agents
@@ -150,14 +152,16 @@ Collaborative multi-agent systems are advanced AI frameworks where multiple agen
 - **Finance**: Fraud detection, portfolio management, and compliance agents ensure secure and efficient operations.  
 - **Logistics**: Agents manage inventory, delivery routing, and real-time tracking collaboratively.
 
-## AI Agent Comparison
+## AI Agent Comparison  
+
 | Industry          | How the Agent Helps                                               | Example |
 |------------------|------------------------------------------------------------------|---------|
-| 🎓&nbsp;**Research & Academia** | Summarize academic papers, extract references, and provide quick overviews of large datasets. | A research assistant agent condenses journal articles for literature reviews. |
-| 🏥&nbsp;**Healthcare** | Retrieve patient histories and summarize medical research for clinicians. | A summarization agent provides key findings from clinical trial reports. |
-| ⚖️&nbsp;**Legal** | Extract relevant case laws, summarize lengthy contracts, and highlight compliance issues. | An agent identifies key clauses in contracts and summarizes them for legal teams. |
-| 💰&nbsp;**Finance** | Provide summaries of market trends, financial reports, and economic analyses. | An agent summarizes quarterly earnings reports for decision-makers. |
-| 💬&nbsp;**Customer Support** | Retrieve and summarize knowledge base articles to provide quick answers to user queries. | An agent pulls relevant FAQ sections and summarizes them into actionable advice. |
+| **🎓 Research & Academia** | Summarize academic papers, extract references, and provide quick overviews of large datasets. | A research assistant agent condenses journal articles for literature reviews. |
+| **🏥 Healthcare** | Retrieve patient histories and summarize medical research for clinicians. | A summarization agent provides key findings from clinical trial reports. |
+| **⚖️ Legal** | Extract relevant case laws, summarize lengthy contracts, and highlight compliance issues. | An agent identifies key clauses in contracts and summarizes them for legal teams. |
+| **💰 Finance** | Provide summaries of market trends, financial reports, and economic analyses. | An agent summarizes quarterly earnings reports for decision-makers. |
+| **💬 Customer Support** | Retrieve and summarize knowledge base articles to provide quick answers to user queries. | An agent pulls relevant FAQ sections and summarizes them into actionable advice. |
+
 
 
 
