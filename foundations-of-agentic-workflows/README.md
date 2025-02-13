@@ -8,14 +8,17 @@
 ## An Introduction to Agentic Frameworks
 Agentic frameworks are structured systems that enable AI agents to operate autonomously and collaboratively within workflows. They provide the architecture for perception, reasoning, and task execution, ensuring agents achieve specific goals efficiently. These frameworks also integrate features like memory, feedback loops, and multi-agent collaboration for adaptability and continuous learning.
 
+---
 ### Core Functions of Agentic Frameworks
-| **Function** | **Description** | **Example** |
-|-------------|---------------|------------|
-| **👀 Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
-| **🧠 Reasoning** | Agents process collected data, apply logic, and make informed decisions. | A diagnostic agent analyzes symptoms and cross-references them with a medical database to suggest potential conditions. |
-| **⚡ Action** | Agents execute tasks or responses based on decisions made during the reasoning phase. | A logistics agent places an order for restocking inventory when stock levels are low. |
-| **🔄 Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
-| **💾 Memory** | Agents store and retrieve past interactions or data for improved context awareness. | A customer service agent remembers past complaints to provide better continuity in interactions. |
+
+| Function         | Description                                                              | Example |
+|-----------------|--------------------------------------------------------------------------|---------|
+| 👀 **Perception** | Agents gather data from their environment through APIs, user interactions, or IoT devices. | A chatbot perceives user input by interpreting natural language queries. |
+| 🧠 **Reasoning**  | Agents process collected data, apply logic, and make informed decisions. | A diagnostic agent analyzes symptoms and cross-references them with a medical database to suggest potential conditions. |
+| ⚡ **Action**     | Agents execute tasks or responses based on decisions made during the reasoning phase. | A logistics agent places an order for restocking inventory when stock levels are low. |
+| 🔄 **Feedback Loop** | Agents refine their future behavior by learning from the outcomes of their actions. | A recommendation agent adjusts its suggestions based on customer clicks and purchases. |
+| 💾 **Memory**     | Agents store and retrieve past interactions or data for improved context awareness. | A customer service agent remembers past complaints to provide better continuity in interactions. |
+
 
 
 ### **Characteristics of Agentic Frameworks**
@@ -24,13 +27,16 @@ Agentic frameworks are structured systems that enable AI agents to operate auton
 - 💡**Adaptability**: Agents adjust their actions dynamically based on real-time data and evolving environments.
 - 🤝 **Collaboration**: Frameworks support communication between multiple agents to achieve shared goals.
 
+---
 
 ### **Examples of Agentic Frameworks**
-| **Industry**     | **AI Agent Collaboration Example** |
-|-----------------|----------------------------------|
-| **Healthcare**  | Diagnostic agents collaborate with patient monitoring agents to provide comprehensive care in a hospital setting. |
-| **Finance**     | Fraud detection agents work alongside portfolio management agents to ensure secure and profitable financial operations. |
-| **Transportation** | Route optimization agents and fleet management agents collaborate to ensure timely and efficient deliveries. |
+
+| Industry        | AI Agent Collaboration Example |
+|---------------|----------------------------------|
+| 🏥 **Healthcare**  | Diagnostic agents collaborate with patient monitoring agents to provide comprehensive care in a hospital setting. |
+| 💰 **Finance**     | Fraud detection agents work alongside portfolio management agents to ensure secure and profitable financial operations. |
+| 🚚 **Transportation** | Route optimization agents and fleet management agents collaborate to ensure timely and efficient deliveries. |
+
 
 
 ## Stages inside Agentic Workflows
