@@ -20,74 +20,34 @@
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Setup",
-          "dirName": "setup",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "AI Agents",
-          "dirName": "ai-agents",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Foundations of Agentic Workflows",
+          "friendlyName": "Foundations of AI Agentic Workflows",
           "dirName": "foundations-of-agentic-workflows",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 15
         },
         {
-          "friendlyName": "Types of Agents",
-          "dirName": "types-of-agents",
+          "friendlyName": "Building AI Agents with LangChain",
+          "dirName": "building-ai-agents",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 45
         },
         {
-          "friendlyName": "LangGraph Framework for Building AI Agents",
-          "dirName": "langgraph-framework-for-building-ai-agents",
+          "friendlyName": "Emerging Trends in Agentic AI",
+          "dirName": "emerging-trends-in-agentic-ai",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Applications of AI Agents",
-          "dirName": "applications-of-ai-agents",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Advanced Features and Capabilities of AI Agents",
-          "dirName": "advanced-features-and-capabilities-of-ai-agents",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 30
         }
       ],
       "isHeaderShown": true,

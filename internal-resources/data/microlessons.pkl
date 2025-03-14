@@ -2,51 +2,23 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 
 // Add microlessons here, in the order they should be delivered
 
-setup = new Template.Microlesson {
-  friendlyName = "Setup"
-  dirName = "setup"
-  type = "Content"
-  videoUrl = ""
-}
-
-aiAgents = new Template.Microlesson {
-  friendlyName = "AI Agents"
-  dirName = "ai-agents"
-  type = "Content"
-  videoUrl = ""
-}
-
-foundationsOfAgenticWorkflows = new Template.Microlesson {
-  friendlyName = "Foundations of Agentic Workflows"
+microlesson01 = new Template.Microlesson {
+  friendlyName = "Foundations of AI Agentic Workflows"
   dirName = "foundations-of-agentic-workflows"
   type = "Content"
   videoUrl = ""
 }
 
-typesOfAgents = new Template.Microlesson {
-  friendlyName = "Types of Agents"
-  dirName = "types-of-agents"
+microlesson02 = new Template.Microlesson {
+  friendlyName = "Building AI Agents with LangChain"
+  dirName = "building-ai-agents"
   type = "Content"
   videoUrl = ""
 }
 
-langGraphFrameworkForBuildingAiAgents = new Template.Microlesson {
-  friendlyName = "LangGraph Framework for Building AI Agents"
-  dirName = "langgraph-framework-for-building-ai-agents"
-  type = "Content"
-  videoUrl = ""
-}
-
-applicationsOfAiAgents = new Template.Microlesson {
-  friendlyName = "Applications of AI Agents"
-  dirName = "applications-of-ai-agents"
-  type = "Content"
-  videoUrl = ""
-}
-
-advancedFeaturesAndCapabilitiesOfAiAgents = new Template.Microlesson {
-  friendlyName = "Advanced Features and Capabilities of AI Agents"
-  dirName = "advanced-features-and-capabilities-of-ai-agents"
+microlesson03 = new Template.Microlesson {
+  friendlyName = "Emerging Trends in Agentic AI"
+  dirName = "emerging-trends-in-agentic-ai"
   type = "Content"
   videoUrl = ""
 }

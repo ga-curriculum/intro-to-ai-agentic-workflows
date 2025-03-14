@@ -1,36 +1,20 @@
 amends "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl"
 
-import "microlessons.pkl" as mls
-
-// See:
-// https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/static/v2/pkl/template.pkl
-// for the full configuration options available here.
-
-// After modifying this file, use this command while in the root directory
-// for this project to create the final configuration file (config.json):
-// pkl eval -f json ./internal-resources/data/config.pkl -o %{moduleDir}/%{moduleName}.%{outputFormat}
+import "microlessons_ai_agentic.pkl" as mls
 
 repo {
-  // This name is shown in the header nav to navigate users home
   friendlyName = "Intro to AI Agentic Workflows"
-  // This must match the repo name as it appears on GitHub exactly
   name = "intro-to-ai-agentic-workflows"
   type = "Lesson"
 }
 
 courses {
   new {
-    // Do not remove this fallback course!
     name = "fallback"
     microlessons {
-      // Add microlessons here, in the order they should be delivered
-      mls.setup
-      mls.aiAgents
-      mls.foundationsOfAgenticWorkflows
-	  mls.typesOfAgents
-	  mls.langGraphFrameworkForBuildingAiAgents
-	  mls.applicationsOfAiAgents
-	  mls.advancedFeaturesAndCapabilitiesOfAiAgents
+      mls.microlesson01
+      mls.microlesson02
+      mls.microlesson03
     }
   }
 }
