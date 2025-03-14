@@ -5,27 +5,28 @@
 
 ## About
 
-AI agents are autonomous systems that perceive, reason, and act to complete tasks, often using LLMs as part of their workflows. Unlike static LLMs, agents have autonomy, decision-making abilities, and can interact dynamically with users and systems. Agentic workflows optimize task execution by leveraging multiple AI agents in a structured process.
+AI agents are **autonomous systems** that **perceive, reason, and act** to complete tasks, often leveraging **large language models (LLMs)** in their workflows. Unlike traditional LLM-based applications, **agentic AI systems** introduce **decision-making capabilities, iterative feedback loops, and dynamic interactions** with users and systems.
 
-By the end of this session you will be able to:
+This module provides a **deep dive into AI agentic workflows**, focusing on **frameworks, hands-on agent development, and emerging trends**. By the end of this module, you will have practical experience designing and implementing AI agents **using LangChain and LangGraph**, as well as exploring **cutting-edge advancements in multi-agent collaboration and self-improving AI systems**.
 
-- **Explain** AI agentic workflows by identifying core concepts, roles, and how frameworks enable automation, collaboration, and decision-making.
-- **Classify** AI agent types by distinguishing the characteristics, strengths, limitations, and applications of React Agents, LATS Agents, Reflection Agents, and ReWoo Agents.
-- **Assess** the LangGraph framework by examining its architecture, modular design, and role in simplifying AI agent workflow creation and orchestration.
-- **Develop** AI agent workflows by designing multi-agent collaboration, feedback loops, and scalable, adaptive coordination.
-- **Implement** AI agents across domains by applying them in healthcare, finance, logistics, retail, and education to enhance efficiency and user satisfaction.
-- **Integrate** advanced agent capabilities by incorporating contextual awareness, continuous learning, and generative AI to improve autonomy, scalability, and adaptability.
-- **Analyze** challenges and emerging trends by evaluating data quality, scalability, ethics, federated learning, edge AI, and multi-agent coordination.
+## Learning Objectives
 
-## Content
+By the end of this module, you will be able to:
 
-| Lesson                                                                                                         | Est. Delivery Time | Skills                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Setup](./setup/README.md)                                                                                     |       2 min        | Set up the development environment.                                                                                                                |
-| [AI Agents](./ai-agents/README.md)                                                                             |       10 min       | Describe AI agents and define agentic workflows.                                                                                                   |
-| [Foundations of Agentic Workflows](./foundations-of-agentic-workflows/README.md)                               |       10 min       | Describe how structured frameworks enable AI agents to interact, make decisions, and optimize workflows.                                           |
-| [Types of Agents](./types-of-agents/README.md)                                                                 |       15 min       | List the types of AI agents and describe each of them in terms of their core characteristics, strengths, limitations and use cases.                |
-| [Building AI Agents with Langchain](./building-multi-agent-workflows-with-langchain/README.md)                 |       30 min       | Build AI Agents using the most popular open-source framework                                                                                       |
-| [Applications of AI Agents](./applications-of-ai-agents/README.md)                                             |       15 min       | Detail the possible real-world examples of AI agents in industries like healthcare, finance, and retail, improving automation and decision-making. |
-| [Advanced Features and Capabilities of AI Agents](./advanced-features-and-capabilities-of-ai-agents/README.md) |       10 min       | Describe how AI agents use real-time learning, multi-agent collaboration, and adaptability to enhance their performance.                           |
-| **Total content**                                                                                              |    1 hr 32 min     |                                                                                                                                                    |
+- **Explain** how AI agents differ from traditional LLM applications and how structured workflows enable autonomy.
+- **Design** and implement AI agent workflows using **LangChain and LangGraph**.
+- **Troubleshoot and optimize** agent behavior by identifying limitations and refining decision-making loops.
+- **Analyze** cutting-edge **emerging trends** in AI agent development, including **ReAct, reflection agents, and multi-agent collaboration**.
+- **Experiment** with advanced AI agent capabilities and integrate **feedback loops, reasoning, and adaptability** into your workflows.
+
+---
+
+## Content Overview
+
+| Lesson | Est. Time | Skills |
+| ------ |:--------:| ------ |
+| [**Foundations of AI Agentic Workflows**](./foundations-of-agentic-workflows/README.md) | 15 min | Understand agentic workflows and structured frameworks. |
+| [**Building AI Agents with LangChain**](./building-ai-agents/README.md) | 45 min | Build, deploy, and test AI agents using LangChain. |
+| [**Emerging Trends in Agentic AI**](./emerging-trends-in-agentic-ai/README.md) | 30 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
+| **Total** | **90 min** | **Interactive, hands-on AI agent development experience.** |
+
