@@ -7,17 +7,17 @@
 By the end of this lesson, you will be able to:  
 - **Describe** recent advancements in AI agent design and workflows.  
 - **Implement** and test emerging agentic AI techniques, including ReAct, reflection agents, and multi-agent collaboration.  
-- **Evaluate** the impact of feedback loops and self-improving mechanisms in AI agent workflows.  
+- **Evaluate** how feedback loops and self-improving mechanisms influence agent behavior and performance. 
 
 ## Introduction  
-Agentic AI systems are evolving rapidly, integrating more advanced reasoning capabilities, **multi-agent collaboration**, and **self-improving mechanisms**. Unlike traditional AI workflows, these newer approaches allow agents to learn dynamically, collaborate in solving complex problems, and refine their responses over time. This lesson explores three key trends shaping the future of agentic AI:  
+Agentic AI systems are evolving rapidly, integrating more advanced reasoning capabilities, **multi-agent collaboration**, and **self-improving mechanisms**. Unlike traditional AI workflows, these approaches enable agents to learn dynamically, collaborate on solving complex problems, and refine their responses over time. This lesson explores three key trends shaping the future of agentic AI:  
 
 1. **ReAct (Reason + Act) Agents** - Agents that integrate reasoning and action for more sophisticated decision-making.  
 2. **Reflection Agents** - Agents that evaluate past outputs and refine their responses.  
 3. **Multi-Agent Collaboration** - Agents working together to perform complex tasks through specialized roles.  
 
 ## Trend 1: ReAct (Reason + Act) Agents  
-Traditional AI agents either **predict** answers or **execute** tasks, but ReAct agents do both. By reasoning through steps and acting accordingly, these agents can **self-correct**, solve problems iteratively, and refine their processes.  
+Traditional AI agents systems often either **predict** answers or **execute** tasks, but ReAct agents do both. By reasoning through steps and acting accordingly, these agents can **self-correct**, solve problems iteratively, and refine their processes.  
 
 ### Implementing a ReAct Agent
 The following example demonstrates how to implement a basic ReAct agent in LangChain:
@@ -82,7 +82,7 @@ print(response)
 ```
 
 ## Trend 3: Multi-Agent Collaboration  
-Instead of using **one generalist AI agent**, multi-agent systems distribute tasks among specialized agents, improving efficiency and scalability. This technique is useful for AI **research assistants, task automation, and complex workflows.**
+Instead of relying on a **single generalist AI agent**, multi-agent systems distribute tasks among specialized agents, improving efficiency and scalability. This technique is useful for AI **research assistants, task automation, and complex workflows.**
 
 ### Implementing Multi-Agent Collaboration
 Below is an example where one agent retrieves information while another processes it:
@@ -115,6 +115,6 @@ print(response)
 **Tasks:**  
 1. Modify the ReAct agent to **combine reasoning and multi-step action execution**.  
 2. Expand the reflection agent by **integrating stored responses into new outputs**.  
-3. Create a multi-agent system where one agent **fact-checks another agent’s response** before delivering a final output.  
+3. Create a multi-agent system where one agent **validates or fact-checks another agent’s response** before delivering a final output.  
 
 
