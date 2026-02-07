@@ -5,14 +5,14 @@
 
 ## Learning Objectives  
 By the end of this lesson, you will be able to:  
-- Set up a LangChain environment to create AI agents.  
+- Configure a LangChain environment for building AI agents.  
 - Build and configure an AI agent to interact with external data sources.  
-- Modify and extend an AI agent’s behavior using reasoning and action-based decision-making.  
-- Troubleshoot and refine an AI agent using feedback loops.  
+- Extend AI agent’s behavior using reasoning and action-based decision-making.  
+- Troubleshoot and refine AI agent performance using feedback loops.  
 
 ## Introduction  
 
-LangChain is an open-source framework that enables AI agents to interact dynamically with data, APIs, and external tools. In this lesson, you’ll build an AI agent capable of retrieving and processing information, making decisions, and learning from interactions.  
+LangChain is an open-source framework that enables AI agents to interact dynamically with data, APIs, and external tools. This lesson will help you build an AI agent capable of retrieving and processing information, making decisions, and learning from interactions.  
 
 ## Setup: Environment & Dependencies  
 
@@ -41,7 +41,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 ```
 
-## Step 1: Create a Basic LangChain Agent  
+## Step A: Create a Basic LangChain Agent  
 
 This simple LangChain agent takes user input and interacts with a language model.
 
@@ -66,7 +66,7 @@ response = agent.run("What is the capital of France?")
 print(response)
 ```
 
-## Step 2: Add a Custom Tool to Your Agent  
+## Step B: Add a Custom Tool to Your Agent  
 
 LangChain allows agents to use external tools (e.g., APIs, databases). Here’s how to add a custom search tool:
 
@@ -99,7 +99,7 @@ response = agent_with_tool.run("What is the capital of France?")
 print(response)
 ```
 
-## Step 3: Implement a Feedback Loop for Self-Correction  
+## Step C: Implement a Feedback Loop for Self-Correction  
 
 AI agents can improve over time by refining their answers based on user feedback.
 
@@ -142,6 +142,6 @@ print(feedback_response)
 **Tasks:**  
 1. Add another external tool (e.g., a real-time API).  
 2. Modify the feedback system to store multiple feedback entries per query.  
-3. Implement a basic reflection mechanism where the agent adjusts based on past responses.  
+3. Implement a basic reflection mechanism where the agent reviews past responses and adjusts future behavior accordingly. 
 
 
